@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+img {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+}
+.childflex {
+  width: 18%;
+  height: 400px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 10px hsl(212, 45%, 89%), 7px 7px 10px hsl(212, 45%, 89%);
+}
+.p1 {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  font-family: "Rubik Bubbles", cursive;
+  padding-top: 15px;
+}
+
+.p2 {
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  padding-top: 15px;
+}
+.w {
+  width: 90%;
+}
+@media (max-width: 734px) {
+  /* when wsith is less than 734 > this property is applies */
+  .childflex {
+    width: 42%;
+  }
+  .w {
+    width: 100%;
+  }
+  .p1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .childflex {
+    width: 62%;
+    width: 100%;
+  }
+}
